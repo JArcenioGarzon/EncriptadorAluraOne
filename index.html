@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&amp;display=swap" rel="stylesheet">
+    <title>Encriptador Challenge Proyecto 1</title>
+</head>
+<body>
+    <header>
+            
+        <img class="logo" src="Imagenes/LogEncript.svg" alt="logo">
+           
+    </header>
+    <main>
+        <div class="piedepagina">
+            <img src="Imagenes/ALURA - ORACLE.svg"> 
+            <img src="Imagenes/ONE.svg">
+            <p><h5>Jorge Arcenio Grazon Aviles G6 - ALURA-ONE - Colombia 2024</h5></p>
+        </div>
+
+
+        <section class="seccion1">
+            <div class="contenedorcajatexto">
+                <textarea placeholder="Ingrese el texto aqui" class="cajatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Imagenes/alerta.svg" alt="alerta">
+                <p><h1>Solo letras <u>minúsculas</u>, sin <u>acentos</u> y maximo 350 caracteres</h1></p>
+            </div>
+            <div class="contenedor-botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedorcodencript">
+                <img src="Imagenes/CodEncript.svg" alt="CodEncript">
+            </div>
+            <div class="contenedor-parrafo">
+                <h3>Nigún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="contenedor-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+
+            
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
